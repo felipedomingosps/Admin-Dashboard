@@ -1,4 +1,28 @@
 .main{
+    grid-row-start: 1;
+    grid-row-end: 1;
     grid-column-start: 3;
     grid-column-end: 11;
+}
+
+/* HEADER */
+
+.main__header{
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+    gap: 1em;
+    padding: .5em 1em;
+}
+
+.header__search{
+    display: flex;
+}
+
+.header__profile{
+    display: flex;
+}
+
+.greetings__text {
+    display: flex;
+    flex-direction: column;
 }
