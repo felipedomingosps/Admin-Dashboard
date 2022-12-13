@@ -26,3 +26,32 @@
     display: flex;
     flex-direction: column;
 }
+
+/* SECTIONS */
+
+.main__sections {
+    display: grid;
+    grid-template-columns: 8fr 2fr;
+    gap: 2em;
+    grid-template-areas: 
+    "your-projects announcements"
+    "your-projects announcements"
+    "your-projects trending"
+    "your-projects trending";
+}
+
+.sections__section {
+    border: 1px solid black; /*delete later*/
+}
+
+.sections__section--your-projects {
+    grid-area: your-projects;
+}
+
+.sections__section--announcements {
+    grid-area: announcements;
+}
+
+.sections__section--trending {
+    grid-area: trending;
+}
