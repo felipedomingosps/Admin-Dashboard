@@ -2,5 +2,49 @@
     grid-row-start: 1;
     grid-row-end: 1;
     grid-column-start: 1;
-    grid-column-end: 4;
+    grid-column-end: 3;
+
+    background-color: #164f64;
+    padding: 1rem .3rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.aside__title {
+    font-size: 2.5vw;
+    color:hsl(183, 100%, 96%);
+    font-weight: 600;
+    margin-left: 1rem;
+}
+
+.aside__nav {
+    display: grid;
+    gap: 2rem;
+    padding: 1rem .5rem;
+}
+
+.nav__ul {
+    display: grid;
+    gap: .8rem;
+}
+
+.ul__li {
+    display: grid;
+    grid-template-columns: 1.5rem 1fr;
+    gap: 1vw;
+    justify-content: center;
+}
+
+.li__icon {
+    font-size: min(2vw, 1.2rem);
+    color:hsl(183, 100%, 96%);
+}
+
+.li__page, .li__section {
+    color:hsl(183, 100%, 96%);
+    font-size: min(2vw, 1.2rem);
+    text-decoration: none;
+    font-weight: 300;
 }

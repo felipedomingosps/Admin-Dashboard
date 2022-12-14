@@ -1,7 +1,16 @@
+ :root > * {
+    box-sizing: border-box;
+ }
+ 
+ html > * {
+    font-family: 'Roboto', sans-serif;
+}
+
 .container{
     display: grid;
     grid-template-columns: repeat(10, 1fr);
     max-width: 1600px;
+    gap: .5em;
     margin: 0 auto;
 }
 
