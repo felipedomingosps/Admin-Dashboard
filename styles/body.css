@@ -8,7 +8,7 @@
 
 .container{
     display: grid;
-    grid-template-columns: repeat(10, 1fr);
+    grid-template-columns: max(1fr, 190px) repeat(9, 1fr);
     max-width: 1600px;
     gap: .5em;
     margin: 0 auto;

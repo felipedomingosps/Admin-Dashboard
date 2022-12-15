@@ -5,29 +5,30 @@
     grid-column-end: 3;
 
     background-color: #164f64;
-    padding: 1rem .3rem;
+    padding: 1rem 1rem;
 
     display: flex;
     flex-direction: column;
-    gap: .5rem;
+    gap: 2rem;
 }
 
 .aside__title {
-    font-size: 2.5vw;
+    font-size: max(2.5vw, 30px);
     color:hsl(183, 100%, 96%);
     font-weight: 600;
-    margin-left: 1rem;
 }
 
 .aside__nav {
     display: grid;
     gap: 2rem;
-    padding: 1rem .5rem;
 }
 
 .nav__ul {
     display: grid;
     gap: .8rem;
+    justify-content: start;
+    align-items: flex-end;
+
 }
 
 .ul__li {
@@ -38,13 +39,14 @@
 }
 
 .li__icon {
-    font-size: min(2vw, 1.2rem);
+    font-size: max(1.2rem, 18px);
     color:hsl(183, 100%, 96%);
 }
 
 .li__page, .li__section {
     color:hsl(183, 100%, 96%);
-    font-size: min(2vw, 1.2rem);
+    font-size: max(1.2rem, 18px);
     text-decoration: none;
     font-weight: 300;
+    text-justify: distribute;
 }
