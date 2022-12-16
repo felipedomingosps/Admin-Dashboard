@@ -2,6 +2,7 @@
     --slate-300: #cbd5e1;
     --stone-900: #1c1917;
     --teal-900: #134e4a;
+    --neutral-50: #fafafa;
 }
 
 *, *:before, *:after {
@@ -17,7 +18,6 @@
     display: grid;
     grid-template-columns: max(1fr, 190px) repeat(9, 1fr);
     max-width: 1600px;
-    gap: 1em;
     margin: 0 auto;
 }
 

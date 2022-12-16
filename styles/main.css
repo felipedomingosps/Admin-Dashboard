@@ -16,7 +16,9 @@
     display: grid;
     grid-template-columns: 4fr 2fr;
     gap: 1em;
-    padding: 1rem .5rem;
+    padding: 1rem 1rem;
+    background-color: var(--neutral-50);
+    box-shadow: 0px 1px 1px black;
 }
 
 /* HEADER - SEARCH */
