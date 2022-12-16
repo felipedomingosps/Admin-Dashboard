@@ -18,7 +18,7 @@
     gap: 1em;
     padding: 1rem 1rem;
     background-color: var(--neutral-50);
-    box-shadow: 0px 1px 1px black;
+    box-shadow: 0px 1px 5px -2px black;
 }
 
 /* HEADER - SEARCH */
@@ -126,16 +126,21 @@
 .main__sections {
     display: grid;
     grid-template-columns: 8fr 2fr;
-    gap: 1em;
+    gap: .5rem;
     grid-template-areas: 
     "your-projects announcements"
     "your-projects announcements"
     "your-projects trending"
     "your-projects trending";
+    padding: 1rem;
 }
 
 .sections__section {
     border: 1px solid black; /*delete later*/
+}
+
+.section__header{
+    font-size: max(1.3vw, 20px);
 }
 
 .sections__section--your-projects {
