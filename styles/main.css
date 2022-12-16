@@ -8,7 +8,6 @@
 .avatar, .avatar__img {
     width: 80px;
     height: 80px;
-    border-radius: 20px;
 }
 
 /* HEADER */
@@ -57,13 +56,48 @@
 
 .header__profile{
     display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.profile__button{
+    background: none;
+    border: none;
+}
+
+.button__icon--profile{
+    font-size: 1rem;
+}
+
+.profile__avatar{
+    width: 50px;
+    height: 50px;
+    border-radius: 0px;
+}
+
+.profile__name{
+    font-weight: 600;
 }
 
 /* HEADER - GREETINGS */
 
+.header__greetings{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
 .greetings__text {
     display: flex;
     flex-direction: column;
+    font-weight: 500;
+    font-size: .9rem;
+    gap: .2rem;
+}
+
+.greetings__text > span {
+    font-size: 1.2rem;
 }
 
 /* SECTIONS */
