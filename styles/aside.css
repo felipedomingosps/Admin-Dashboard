@@ -4,7 +4,7 @@
     grid-column-start: 1;
     grid-column-end: 3;
 
-    background-color: #164f64;
+    background-color: var(--teal-900);
     padding: 1rem 1rem;
 
     display: flex;
