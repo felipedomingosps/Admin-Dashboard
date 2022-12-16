@@ -10,7 +10,7 @@
     display: grid;
     grid-template-columns: max(1fr, 190px) repeat(9, 1fr);
     max-width: 1600px;
-    gap: .5em;
+    gap: 1em;
     margin: 0 auto;
 }
 
