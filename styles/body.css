@@ -1,9 +1,15 @@
- :root > * {
+:root {
+    --slate-300: #cbd5e1;
+    --stone-900: #1c1917;
+}
+
+*, *:before, *:after {
     box-sizing: border-box;
  }
  
  html > * {
     font-family: 'Roboto', sans-serif;
+    color: var(--stone-900);
 }
 
 .container{
