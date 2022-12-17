@@ -10,7 +10,7 @@
     height: 80px;
 }
 
-/* HEADER */
+/* ----- HEADER */
 
 .main__header{
     display: grid;
@@ -121,7 +121,7 @@
     letter-spacing: 2px;
 }
 
-/* SECTIONS */
+/* ----- SECTIONS */
 
 .main__sections {
     display: grid;
@@ -141,11 +141,57 @@
 
 .section__header{
     font-size: max(1.3vw, 20px);
+    margin-bottom: .5rem;
+    font-weight: 600;
 }
+
+/* SECTIONS - YOUR PROJECTS */
 
 .sections__section--your-projects {
     grid-area: your-projects;
+    padding: .5rem;
 }
+
+.section__container--your-projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1rem;
+    
+}
+
+.section__container--your-projects .section__article {
+    background: var(--slate-300);
+    border-left: .3rem solid var(--teal-900);
+    border-radius: 15px;
+    padding: .5rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+}
+
+.section__container--your-projects .content__header {
+    font-size: max(1.3vw, 20px);
+    font-weight: 500;
+    margin-bottom: .4rem;
+    color: var(--stone-900);
+}
+
+.section__container--your-projects .content__text {
+    text-align: justify;
+}
+
+.section__container--your-projects .article__buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: .5rem;
+}
+
+.section__container--your-projects .buttons__button {
+    font-size: 1.3rem;
+    color: var(--teal-900)
+}
+
+/**/
 
 .sections__section--announcements {
     grid-area: announcements;
