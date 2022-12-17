@@ -125,7 +125,7 @@
 
 .main__sections {
     display: grid;
-    grid-template-columns: 8fr 2fr;
+    grid-template-columns: 6fr 2fr;
     gap: .5rem;
     grid-template-areas: 
     "your-projects announcements"
