@@ -154,16 +154,15 @@
 
 .section__container--your-projects {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
     gap: 1rem;
-    
 }
 
 .section__container--your-projects .section__article {
     background: var(--slate-300);
     border-left: .3rem solid var(--teal-900);
     border-radius: 15px;
-    padding: .5rem 1rem;
+    padding: 2rem 1rem 1rem 1rem;
     display: flex;
     flex-direction: column;
     gap: .8rem;
@@ -191,11 +190,42 @@
     color: var(--teal-900)
 }
 
-/**/
+/* SECTIONS - ANNOUNCEMENTS */
 
 .sections__section--announcements {
     grid-area: announcements;
+    padding: .5rem;
 }
+
+.section__container--announcements {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    background-color: var(--slate-300);
+    border-radius: 15px;
+}
+
+.section__container--announcements .section__article {
+    padding: 1rem 0px;
+}
+
+.section__container--announcements .section__article:not(:nth-of-type(3)) {
+    border-bottom: solid var(--stone-900) 1px;
+}
+
+.section__container--announcements .content__header {
+    font-size: max(1.2vw, 18px);
+    font-weight: 500;
+    margin-bottom: .4rem;
+    color: var(--stone-900);
+}
+
+.section__container--announcements .content__text {
+    text-align: justify;
+    font-size: .9rem;
+}
+
+/**/
 
 .sections__section--trending {
     grid-area: trending;
